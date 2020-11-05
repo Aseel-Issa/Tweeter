@@ -1,7 +1,6 @@
 {
   "name": "tweeter",
   "version": "1.0.0",
-  "description": "",
   "main": "main.js",
   "dependencies": {
     "elevation-pr": "^1.4.0",
@@ -13,5 +12,14 @@
     "review": "node node_modules/elevation-pr/index.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aseel-Issa/Tweeter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Aseel-Issa/Tweeter/issues"
+  },
+  "homepage": "https://github.com/Aseel-Issa/Tweeter#readme",
+  "description": ""
 }
