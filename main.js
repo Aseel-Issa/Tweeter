@@ -5,10 +5,12 @@ const tweetsList = Tweeter()
 // The only function that is defined here is the post() because it is declared in the index.html
 const post = function(){
     tweetsList.postTweet($('#container').find('#input').val())
+    $('#container').find('#input').val('')
     const renderer = Renderer()
     renderer.renderPosts(tweetsList.getPosts())
 }
 
+// The first function that will be called when the index.html file is opened
 const initPage = function(){
     const renderer = Renderer()
     const controller = Controller()

@@ -20,7 +20,8 @@
     width: 35vw; 
     padding: 2vh;
     display: inline-block;
-    height: 10vmin;
+    /* height: 10vmin; */
+    font-size: 20px;
 }
 
 .comment{
@@ -31,9 +32,11 @@
     /* border-radius: 2ch; */
     /* margin-left: 10vh; */
     width: 35vw; 
-    margin-top: 2vh;
-    padding: 2vh;
+    /* margin-top: 2vh; */
+    padding: 0.5vh;
     display: inline-block;
+    font-size: 14px;
+    /* height: 2vh; */
 }
 .delete-post{
     float: right;
@@ -63,7 +66,40 @@
     color: tomato;
     border-radius: 50%;
     border: 1px solid grey;
+    
 }
 .delete-comment:hover{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+h1{
+    color: #2c3e50;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#input{
+    width: 43vw; 
+    height: 4vh;
+    margin-bottom: 2vw;
+    color: #2c3e50;
+    font-family: fantasy;
+    font-size: 14px;
+}
+#post{
+    display: inline-block;
+    width: 5vw;
+    height: 3.7vh;
+    margin-bottom: 2vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    /* border: #3498db solid 1px; */
+    border-radius: 0.5ch;
+    text-align: center;
+    text-decoration: underline;
+    color: #3da1e4;
+
+    /* float: right; */
+}
+.tweet > p{
+    display: inline-block;
 }
