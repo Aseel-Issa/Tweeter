@@ -23,7 +23,6 @@ const Controller = function(){
         $('#posts').on('click', '.delete-comment', function(){
             let tweetId = $(this).closest('.post').data('id')
             let commentId = $(this).closest('.comment-section').data('id')
-           // console.log($(this).closest('.post').data('id') + " has been removed ")
             let tweet = tweetsList.getTweetById(tweetId)
             tweet.removeCommentById(commentId)
             let posts = tweetsList.getPosts()
@@ -35,8 +34,6 @@ const Controller = function(){
     const addComment = function(){
         $('#posts').on('click', '.add-comment', function(){
             let tweetId = $(this).closest('.post').data('id')
-          //  let commentId = $(this).closest('.comment-section').data('id')
-           // console.log($(this).closest('.post').data('id') + " has been removed ")
             let tweet = tweetsList.getTweetById(tweetId)
             let content = $(this).closest('.post').find('.add-comment-text').val()
             tweet.addComment(content)

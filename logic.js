@@ -14,18 +14,7 @@ const removeElementById = function(array, id) {
                 array = []
                 break
             }
-            console.log('the element that should be removed is of id: '+array[i].getId())
-            console.log('i: '+i)
             let deleted = array.splice(i, 1)
-            
-            for(let k=0; k<deleted.length; k++){
-                console.log('spliced item is '+deleted[k].getId())
-            }
-            
-            console.log('Remaining elements:')
-            for (let j=0; j<array.length; j++){
-                console.log(array[j].getId())
-            }
             break;
         }
     }
@@ -50,7 +39,7 @@ const addElement = (array, element) => {
 
 // Tweets module which is the list of all posted tweets
 // ===================================================================
-const Tweets = function(){
+const Tweeter = function(){
     // List of all tweets
     let allTweets = []
 
@@ -172,5 +161,5 @@ const Tweets = function(){
     }
 
 }
-// ================End of Tweets module================================================
+// ================End of Tweeter module================================================
 

@@ -1,5 +1,6 @@
 
-const tweetsList = Tweets()
+// The tweeter module is initialized once here so all the controllers files can access the same instance
+const tweetsList = Tweeter()
 
 // The only function that is defined here is the post() because it is declared in the index.html
 const post = function(){
