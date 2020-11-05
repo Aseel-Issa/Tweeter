@@ -1,0 +1,25 @@
+{
+  "name": "tweeter",
+  "version": "1.0.0",
+  "main": "main.js",
+  "dependencies": {
+    "elevation-pr": "^1.4.0",
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "review": "node node_modules/elevation-pr/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aseel-Issa/Tweeter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Aseel-Issa/Tweeter/issues"
+  },
+  "homepage": "https://github.com/Aseel-Issa/Tweeter#readme",
+  "description": ""
+}
